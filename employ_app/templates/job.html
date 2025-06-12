@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    {%load static%}
+<head>
+  <meta charset="UTF-8">
+  <title>Job Listings - Office Employment</title>
+  <link rel="stylesheet" href="{%static 'css/job.css'%}">
+  
+</head>
+<body>
+
+  <header>
+    <h1>Office Employment</h1>
+    <p>Explore Exciting Career Opportunities</p>
+  </header>
+
+  <nav>
+    <a href="{%url 'home'%}">Home</a>
+    <a href="{%url 'about'%}">About Us</a>
+    <a href="{%url 'job'%}">Jobs</a>
+    <a href="{%url 'contact'%}">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Current Job Openings</h2>
+
+    <div class="job-listing">
+      <div class="job-title">Software Developer</div>
+      <div class="job-location">Pune, Maharashtra</div>
+      <div class="job-description">
+        We are looking for an experienced software developer with strong knowledge of Java and Spring Boot.
+        <br><strong>Experience:</strong> 2–4 years
+      </div>
+    </div>
+
+    <div class="job-listing">
+      <div class="job-title">Machine learning Engineer </div>
+      <div class="job-location">Mumbai, Maharashtra</div>
+      <div class="job-description">
+        Responsible for write end to end pipeline of ML ,good at MLOPs , know basic of docker.
+        <br><strong>Experience:</strong> 4 years
+      </div>
+    </div>
+
+    
