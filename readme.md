@@ -30,27 +30,28 @@ A simple yet powerful **Employee Management System** that allows users to manage
 ---
 # This is working page of website
 1. Home page:
- ![home](static\images\home.png)
+ ![home](employ_app/static/images/home.png)
 2. view employee:
- ![view](employ_app\static\images\view.png)
+ ![view](employ_app/static/images/view.png)
 
 3. Remove an Employee:
- ![remove](employ_app\static\images\remove.png)
+ ![remove](employ_app/static/images/remove.png)
 4. Add an Employee:
-![add](employ_app\static\images\add.png)
+![add](employ_app/static/images/add.png)
 5. Search an Employee:
-![search](employ_app\migrations\filter.png)
+![search](employ_app/migrations/filter.png)
 
 6. About us page:
-![about](employ_app\static\images\about.png)
+  
+![about](employ_app/static/images/about.png)
 
-7. job page:
-![job](employ_app\static\images\job.png)
+8. job page:
+![job](employ_app/static/images/job.png)
 
-8. privacy page:
-![privacy](employ_app\static\images\privacy.png)
+9. privacy page:
+![privacy](employ_app/static/images/privacy.png)
 
-
+---
 ## 🛠️ Technologies Used
 
 
