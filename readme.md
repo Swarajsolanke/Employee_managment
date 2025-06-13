@@ -30,7 +30,7 @@ A simple yet powerful **Employee Management System** that allows users to manage
 ---
 # This is working page of website
 1. Home page:
- ![home](employ_app\static\images\home.png)
+ ![home](static\images\home.png)
 2. view employee:
  ![view](employ_app\static\images\view.png)
 
