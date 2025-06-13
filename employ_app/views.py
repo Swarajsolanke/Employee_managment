@@ -5,7 +5,7 @@ from datetime import datetime
 from django.db.models import Q
 # Create your views here.
 def home(req):
-    return render(req,'home.html')
+    return render(req,'index.html')
 
 def about(req):
     return render(req,'aboutus.html')
