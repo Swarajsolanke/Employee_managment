@@ -28,9 +28,30 @@ A simple yet powerful **Employee Management System** that allows users to manage
    - Uses prepared statements / ORM (if backend is used) to prevent SQL injection.
 
 ---
+# This is working page of website
+1. Home page:
+ ![home](employ_app\static\images\home.png)
+2. view employee:
+ ![view](employ_app\static\images\view.png)
+
+3. Remove an Employee:
+ ![remove](employ_app\static\images\remove.png)
+4. Add an Employee:
+![add](employ_app\static\images\add.png)
+5. Search an Employee:
+![search](employ_app\migrations\filter.png)
+
+6. About us page:
+![about](employ_app\static\images\about.png)
+
+7. job page:
+![job](employ_app\static\images\job.png)
+
+8. privacy page:
+![privacy](employ_app\static\images\privacy.png)
+
 
 ## 🛠️ Technologies Used
-
 
 
 - **Frontend**: HTML5, CSS3,  Bootstrap
@@ -47,6 +68,7 @@ A simple yet powerful **Employee Management System** that allows users to manage
 git clone https://github.com/Swarajsolanke/Employee_managment.git
 cd Employee_managment
 run requirement.txt file for package upgradation
+
 
 
 
