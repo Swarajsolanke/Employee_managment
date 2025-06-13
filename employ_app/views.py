@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Department, Role, Employee
+from .models import Department, Role, Employee,Contact
 from datetime import datetime
 from django.db.models import Q
 # Create your views here.
@@ -11,7 +11,21 @@ def about(req):
     return render(req,'aboutus.html')
 
 def contact(req):
-    return render(req,'contact.html')
+    if req.method=="POST":
+        name=req.POST['name']
+        email=req.POST['email']
+        subject=req.POST['subject']
+        message=req.POST['message']
+        if name and email and subject and message:
+            contact=Contact( name=name,email=email, subject=subject, message=message)
+            contact.save()
+            return HttpResponse("Thank for contacting us, we will get back to you soon.")
+        else:
+            return HttpResponse("please fill all the fields")
+    elif req.method=='GET':
+        return render(req,'contact.html')
+    else:
+        return HttpResponse("inavlid request: kindly try again")
 def job(req):
     return render(req,'job.html')
 def privacy(req):

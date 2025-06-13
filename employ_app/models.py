@@ -25,4 +25,11 @@ class Employee(models.Model):
     def __str__(self):
         return "%s %s %s" % (self.first_name, self.last_name,self.phone)
     
+class Contact(models.Model):
+    name=models.CharField(max_length=100,null=False)
+    email=models.EmailField(max_length=100, null=False)
+    subject=models.CharField(max_length=100, null=False)
+    message=models.TextField(null=False)
     
+    def __str__(self):
+        return "%s %s %s %s" %{self.name,self.email,self.subject,self.message}
